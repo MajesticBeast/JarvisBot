@@ -1,0 +1,5 @@
+__pycache__/
+cogs/spaces_monitor/__pycache__
+cogs/quotes/__pycache__
+.env
+.venv
