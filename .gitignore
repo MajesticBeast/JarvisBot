@@ -1,5 +1,7 @@
-__pycache__/
+**/__pycache__
+**/tester.py
 cogs/spaces_monitor/__pycache__
 cogs/quotes/__pycache__
 .env
 .venv
+.

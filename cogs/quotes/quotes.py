@@ -5,7 +5,7 @@ from random import choice
 
 json_file = 'quotes.json'
 
-class QuotesCog(commands.Cog):
+class Quotes(commands.Cog):
     """Display random quotes from TV shows"""
 
     def __init__(self, bot):
@@ -70,4 +70,4 @@ class QuotesCog(commands.Cog):
 
 
 def setup(bot):
-    bot.add_cog(QuotesCog(bot))
+    bot.add_cog(Quotes(bot))

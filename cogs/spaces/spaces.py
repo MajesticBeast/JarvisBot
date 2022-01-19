@@ -1,11 +1,15 @@
 from os import getenv
 from dotenv import load_dotenv
 import boto3
-import discord
 from discord.ext import commands, tasks
 
-class SpacesMonitor(commands.Cog):
-    """ Management of lostsons files """
+class Spaces(commands.Cog):
+    """A tool for monitoring The Lost Sons files
+
+    As of now this Cog has only 1 command ("files"), and has no options.
+
+    Next feature being implemented is auto-monitoring. It will display any changed contents of the Space.
+    """
 
     def __init__(self, bot):
         self.bot = bot
@@ -26,22 +30,27 @@ class SpacesMonitor(commands.Cog):
 
     @commands.command(name='files')
     async def manual_query_space(self, ctx):
-        """ Manual query of lostsons files """
+        """ : Manual query of lostsons files 
+
+        Available arguments:
+            None
+
+        Sample usage: 
+            !j files
+        """
         response = self.spaces_client.list_objects(Bucket='lostsons')
-        files = {}
-        for obj in response['Contents']:
-            files[obj['Key']] = obj['LastModified']
 
-        
+        results = "Lost Sons files:\n```"
+        for file in response['Contents']:
+            results = results + '\n' + file['Key']
 
-        
+        results = results + "```"
 
-        await ctx.send(files)
+        await ctx.send(results)
 
-"""
+
     @tasks.loop(minutes=5.0)
     # TODO: Change query_spaces to only report to channel if it finds a new or missing file.
-    # TODO: Add function to manually query space.
     # TODO: Add function to upload/delete?
     async def query_spaces(self, bot):
 
@@ -62,6 +71,6 @@ class SpacesMonitor(commands.Cog):
         await self.bot.wait_until_ready()
 
         return
-"""
+
 def setup(bot):
-    bot.add_cog(SpacesMonitor(bot))
+    bot.add_cog(Spaces(bot))

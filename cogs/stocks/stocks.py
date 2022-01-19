@@ -2,8 +2,8 @@ import discord
 from discord.ext import commands
 from yahoofinancials import YahooFinancials
 
-class StocksCog(commands.Cog):
-    """Look up stock information"""
+class Stocks(commands.Cog):
+    """Looks up stock tickers"""
 
     def __init__(self, bot):
         self.bot = bot
@@ -56,4 +56,4 @@ class StocksCog(commands.Cog):
 
 
 def setup(bot):
-    bot.add_cog(StocksCog(bot))
+    bot.add_cog(Stocks(bot))

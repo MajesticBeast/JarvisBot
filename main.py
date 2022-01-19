@@ -7,7 +7,7 @@ load_dotenv()
 TOKEN = getenv('DISCORD_TOKEN')
 
 prefixes = ['!j ']
-cogs = ['cogs.spaces_monitor.spaces_monitor', 'cogs.quotes.quotes']
+cogs = ['cogs.spaces.spaces', 'cogs.quotes.quotes', 'cogs.stocks.stocks']
 
 bot = commands.Bot(command_prefix=prefixes, description='JarvisBot hurr durr description needed still.')
 
