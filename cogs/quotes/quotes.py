@@ -19,10 +19,12 @@ class Quotes(commands.Cog):
         
         Available shows:
             The Office
+            Home Improvement
+            The Blacklist
         Sample usage:
-            !j quote "The Office" "Creed Bratton"
-            !j quote "The Office"
-            !j quote
+            !j quote "The Office" "Creed Bratton"   # Random quote from Creed Bratton
+            !j quote "The Blacklist"                # Random quote from The Blacklist
+            !j quote                                # Random quote from random show
         """
 
         quotes = self.open_json_read("cogs/quotes/" + json_file)

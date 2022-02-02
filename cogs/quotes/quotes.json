@@ -1,4 +1,104 @@
 {
+    "The Blacklist" : {
+        "Raymond Reddington" : {
+            "Quotes" : [
+                {
+                    "Quote" : "As you well know, one of the keys to my success is a clear and consistent understanding of my own limitations.",
+                    "Season" : 4,
+                    "Episode" : 1
+                },
+                {
+                    "Quote" : "You see that Geoff, that is what a good man does. That is what separate men like him from men like you… and me.",
+                    "Season" : 2,
+                    "Episode" : 6
+                },
+                {
+                    "Quote" : "God can't protect you, but I can.",
+                    "Season" : "?",
+                    "Episode" : "?"
+                },
+                {
+                    "Quote" : "It's a good to meet you. I've heard nothing but terrible things.",
+                    "Season" : "?",
+                    "Episode" : "?"
+                },
+                {
+                    "Quote" : "It's a good to meet you. I've heard nothing but terrible things.",
+                    "Season" : "?",
+                    "Episode" : "?"
+                }
+            ]
+        }
+    },
+    "Home Improvement" : {
+        "Tim Taylor" : {
+            "Quotes" : [
+                {
+                    "Quote" : "If I wanted something my brother had, I'd knock him down and take it.",
+                    "Season" : 2,
+                    "Episode" : 21
+                },
+                {
+                    "Quote" : "Yeah, one more head injury and we win a trip to Hawaii",
+                    "Season" : 3,
+                    "Episode" : 3
+                },
+                {
+                    "Quote" : "If a woman holds up a stop sign, if she designed it, it would say 'If you really knew me, you'd know what you should do right now.",
+                    "Season" : 2,
+                    "Episode" : 1
+                },
+                {
+                    "Quote" : "There’s two different types of pain. Pain and man pain. Man pain is when you do something stupid.",
+                    "Season" : 2,
+                    "Episode" : 4
+                }
+            ]
+        },
+        "Wilson" : {
+            "Quotes" : [
+                {
+                    "Quote" : "Never give a sword to a man who can't dance.",
+                    "Season" : 1,
+                    "Episode" : 3
+                },
+                {
+                    "Quote" : "There is nothing so exhilarating than being shot at and missed.",
+                    "Season" : 2,
+                    "Episode" : 6
+                },
+                {
+                    "Quote" : "For it is your business if your neighbor's wall catches fire.",
+                    "Season" : 5,
+                    "Episode" : 6
+                },
+                {
+                    "Quote" : "Getting old is like being increasingly penalized for a crime you never committed.",
+                    "Season" : 7,
+                    "Episode" : 12
+                }
+            ]
+        },
+        "Al Borland" : {
+            "Quotes" : [
+                {
+                    "Quote" : "What, your little bell sends thousands of volts coursing through my body while you stand back and says, 'Remember the AL-amo'! It's just a setup, isn't it? It's one big setup! Soon you'll start in with the uncalled-for slams against my mother. How she shops in the *husky* section. How she cleared out the all-you-can-eat buffet. Well go ahead. Just say it... MY MOTHER IS A BIG FAT COW!",
+                    "Season" : 3,
+                    "Episode" : 3
+                },
+                {
+                    "Quote" : "I don't think so, Tim.",
+                    "Season" : "Yes",
+                    "Episode" : "Yes"
+                },
+                {
+                    "Quote" : "OK, well, what's it gonna be today? More fat jokes? Oh, you've already done all those. How about her perspiration problem? Or maybe the way her jowls sway. Or how about the way the skin under her arms wobble?",
+                    "Season" : 5,
+                    "Episode" : 11
+                }
+            ]
+        }
+    },
     "The Office" : {
         "Dwight Schrute" : {
             "Quotes" : [
@@ -257,28 +357,6 @@
                     "Quote" : "Creed Bratton has never declared bankruptcy. When Creed Bratton gets in trouble, he transfers his debt to William Charles Schneider.",
                     "Season" : 4,
                     "Episode" : 4
-                }
-            ]
-        }
-    },
-    "Other Show" : {
-        "Other Char" : {
-            "Quotes" : [
-                {
-                    "Quote" : "Other test quote",
-                    "Season" : 1,
-                    "Episode" : 10
-                }
-            ]
-        }
-    },
-    "Other Show 2" : {
-        "Other Char" : {
-            "Quotes" : [
-                {
-                    "Quote" : "Other test quote 2",
-                    "Season" : 2,
-                    "Episode" : 20
                 }
             ]
         }
